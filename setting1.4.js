@@ -1,4 +1,4 @@
-//<![CDATA[
+
 
 function labnolIframe(div) {
     var iframe = document.createElement('iframe');
@@ -62,4 +62,3 @@ if (showinarticleAd3.length &gt; 0) {
     insertAfter(inarticleAd3, showinarticleAd3[0]);
 }
 
-//]]>

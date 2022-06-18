@@ -1,5 +1,3 @@
-
-//&lt;![CDATA[
 function labnolIframe(div) {
   var iframe = document.createElement(&quot;iframe&quot;);
   iframe.setAttribute(
@@ -36,4 +34,3 @@ function initYouTubeVideos() {
   }
 }
 document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
-//]]&gt;

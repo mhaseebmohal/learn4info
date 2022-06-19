@@ -1,16 +1,30 @@
 /* rating widget */
 //<![CDATA[
-(function(d, t, e, m){  
-    // Async Rating-Widget initialization.
-    window.RW_Async_Init = function(){
-                
+(function(d, t, e, m){
+   // Async Rating-Widget initialization.
+    window.RW_Async_Init = function(){        
         RW.init({
             huid: "484553",
             uid: "eb0c9aba272d6d497fb335829f3426c5",
             source: "website",
             options: {
-                "size": "medium",
-                "style": "oxygen",
+                "advanced": {
+                    "font": {
+                        "hover": {
+                            "color": "#493C3D"
+                        },
+                        "size": "24px",
+                        "color": "#493C3D"
+                    },
+                    "text": {
+                        "rateAwful": "Need Improvement"
+                    }
+                },
+                "size": "large",
+                "label": {
+                    "background": "#CEC5C6"
+                },
+                "style": "crystal_green",
                 "isDummy": false
             } 
         });

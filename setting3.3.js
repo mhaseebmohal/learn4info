@@ -24,7 +24,7 @@
                 "label": {
                     "background": "#CEC5C6"
                 },
-                "style": "crystal_green",
+                "style": "flat_red",
                 "isDummy": false
             } 
         });

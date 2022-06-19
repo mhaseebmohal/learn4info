@@ -4,8 +4,8 @@
     // Async Rating-Widget initialization.
     window.RW_Async_Init = function(){          
         RW.init({
-            huid: "484262",
-            uid: "7e794e29e2f7d8a0e6db4315d73a9750",
+            huid: "484553",
+            uid: "eb0c9aba272d6d497fb335829f3426c5",
             options: { "style": "oxygen" } 
         });
         RW.render();

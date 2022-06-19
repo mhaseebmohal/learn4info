@@ -1,12 +1,18 @@
 /* rating widget */
 //<![CDATA[
-(function(d, t, e, m){ 
+(function(d, t, e, m){  
     // Async Rating-Widget initialization.
-    window.RW_Async_Init = function(){          
+    window.RW_Async_Init = function(){
+                
         RW.init({
             huid: "484553",
             uid: "eb0c9aba272d6d497fb335829f3426c5",
-            options: { "style": "oxygen" } 
+            source: "website",
+            options: {
+                "size": "medium",
+                "style": "oxygen",
+                "isDummy": false
+            } 
         });
         RW.render();
     };
@@ -22,5 +28,4 @@
     rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
     s.parentNode.insertBefore(rw, s);
     }(document, new Date(), "script", "rating-widget.com/"));
-
 //]]>

@@ -23,25 +23,4 @@
     s.parentNode.insertBefore(rw, s);
     }(document, new Date(), "script", "rating-widget.com/"));
 
-/* recent list */
-
-function recentpostslist(json) {
- document.write('<b><ul style="border: 1px solid #bd9fbd44;text-align: justify;padding: 12px;"><div><span style="background-color: #33fb1b; color: #0b44e7;">You May Like</span></div>');
- for (var i = 0; i < json.feed.entry.length; i++)
- {
-    for (var j = 0; j < json.feed.entry[i].link.length; j++) {
-      if (json.feed.entry[i].link[j].rel == 'alternate') {
-        break;
-      }
-    }
-var entryUrl = "'" + json.feed.entry[i].link[j].href + "'";//bs
-var entryTitle = json.feed.entry[i].title.$t;
-
-var item = "<li>" + "<a href="+ entryUrl + '" target="_blank">' + entryTitle + "</a> </li>";
- document.write(item);
- }
- document.write('</ul></b>');
- }
-
-
 //]]>

@@ -13,21 +13,3 @@ var _0xbf1c = ["$", "split", "length", "=", "trim", "match", "text", "toLowerCas
 
 function shortCodeIfy(_0xe779x2,_0xe779x3,_0xe779x4){for(var _0xe779x5=_0xe779x2[_0xbf1c[1]](_0xbf1c[0]),_0xe779x6=/[^{}]+(?=})/g,_0xe779x7=0;_0xe779x7< _0xe779x5[_0xbf1c[2]];_0xe779x7++){var _0xe779x8=_0xe779x5[_0xe779x7][_0xbf1c[1]](_0xbf1c[3]);if(_0xe779x8[0][_0xbf1c[4]]()== _0xe779x3){return null!= (_0xe779x4= _0xe779x8[1])[_0xbf1c[5]](_0xe779x6)&& String(_0xe779x4[_0xbf1c[5]](_0xe779x6))[_0xbf1c[4]]()}};return !1}$(_0xbf1c[33])[_0xbf1c[21]](function(){var _0xe779x2=$(this),_0xe779x3=_0xe779x2[_0xbf1c[6]](),_0xe779x4=_0xe779x3[_0xbf1c[7]]()[_0xbf1c[4]]();_0xe779x4[_0xbf1c[5]](_0xbf1c[8])&& (_0xe779x3= 0!= shortCodeIfy(_0xe779x3,_0xbf1c[9])?shortCodeIfy(_0xe779x3,_0xbf1c[9]):_0xbf1c[10],_0xe779x2[_0xbf1c[14]](_0xbf1c[11]+ _0xe779x3+ _0xbf1c[12]+ _0xe779x3+ _0xbf1c[13]),$(_0xbf1c[22])[_0xbf1c[21]](function(_0xe779x2){(_0xe779x2= $(this))[_0xbf1c[20]](_0xbf1c[15],function(){_0xe779x2[_0xbf1c[17]](_0xbf1c[16]),$(_0xbf1c[19])[_0xbf1c[18]](170)})}),$(_0xbf1c[19])[_0xbf1c[25]]({content:_0xbf1c[23],headings:_0xbf1c[24]}),$(_0xbf1c[32])[_0xbf1c[21]](function(_0xe779x2){(_0xe779x2= $(this))[_0xbf1c[15]](function(){return $(_0xbf1c[31])[_0xbf1c[30]]({scrollTop:$(_0xe779x2[_0xbf1c[29]](_0xbf1c[28]))[_0xbf1c[27]]()[_0xbf1c[26]]- 20},500),!1})}))})
 //]]>
-
-//<![CDATA[
-const element = document.getElementById(&quot;HTML5&quot;);
-document.getElementById(&quot;dataHTML5&quot;).innerHTML = element.innerHTML; 
-const element1 = document.getElementById(&quot;HTML6&quot;);
-document.getElementById(&quot;dataHTML6&quot;).innerHTML = element1.innerHTML;  
-//]]>
-
-//<![CDATA[
-function insertAfter(Ads, targetAds) { var inarticlead = targetAds.parentNode; if (inarticlead.lastChild == targetAds) { inarticlead.appendChild(Ads); } else { inarticlead.insertBefore(Ads, targetAds.nextSibling); } } var targetAds =document.getElementById(&quot;post-body&quot;); 
-var inarticleAd1 = document.getElementById(&quot;HTML10&quot;); var showinarticleAd1 = targetAds.getElementsByTagName(&quot;p&quot;); if (showinarticleAd1.length &gt; 0) {
-insertAfter(inarticleAd1, showinarticleAd1[3]); } 
-var inarticleAd2 = document.getElementById(&quot;HTML11&quot;); var showinarticleAd2 = targetAds.getElementsByTagName(&quot;br&quot;); if (showinarticleAd2.length &gt; 0) {
-insertAfter(inarticleAd2, showinarticleAd2[6]); } 
-var inarticleAd3 = document.getElementById(&quot;HTML12&quot;); var showinarticleAd3 = targetAds.getElementsByTagName(&quot;br&quot;); if (showinarticleAd3.length &gt; 0) {
-insertAfter(inarticleAd3, showinarticleAd3[9]); }
-//]]>
-
